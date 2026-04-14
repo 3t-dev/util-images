@@ -1,0 +1,10 @@
+FROM claude-code:latest
+
+ENV ANTHROPIC_BASE_URL="" \
+    ANTHROPIC_API_KEY="" \
+    ANTHROPIC_AUTH_TOKEN="" \
+    ANTHROPIC_MODEL="" \
+    DISABLE_AUTOUPDATER=1
+
+ENTRYPOINT []
+CMD ["bash"]
